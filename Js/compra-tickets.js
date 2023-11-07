@@ -16,15 +16,19 @@ function calcularTotal() {
 
     let precio = 200;
 
-    if(categoriaSelect == "estudiante"){
+    if(categoriaSelect == "-- Seleccione --"){
+        //el mismo precio
+        precio = 200;
+    }else if(categoriaSelect == "estudiante"){
         //Estudiante 80%
-        precio = 200 - (200 * 0.80);
-    }else if(categoriaSelect == "trainee"){
+        precio = 200 - (200*0.80);
+    
+    }else if (categoriaSelect == "trainee") {
         //Trainee 50%
-        precio = 200 / 2;
+        precio = 200 - (200*0.50)
     }else{
         //Junior 15 %
-        precio = 200 - (200 * 0.15);
+        precio = 200 - (200 *0.15);
     }    
 
     // Mostrar el total en la página
