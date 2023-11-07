@@ -3,18 +3,6 @@
 const btnResumen = document.getElementById('btnResumen');
 btnResumen.addEventListener('click', calcularTotal);
 
-// Defino porcentajes de descuento segÃºn categorÃ­a
-let descuentoEstudiante = 80;
-let descuentoTrainee    = 50;
-let descuentoJunior     = 15;
-
-// Elementos en variables
-let nombre          = document.getElementById("nombre");
-let apellido        = document.getElementById("apellido");
-let mail            = document.getElementById("mail");
-let cantidadTickets = document.getElementById("cantidadTickets");
-let categoria       = document.getElementById("categoriaSelect");
-
 // Función para calcular el total y mostrarlo
 function calcularTotal() {
 
