@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+
+.nav-link:active {
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+/* SECCION ORADORES*/
+.font-s{
+    font-size: 0.7em;
+}
+
+.text-bg-c{
+    background-color: #1D9FB7;
+}
+
+.card-padding-bottom{
+    padding-bottom: 20px;
+}
+
+.textarea-custom-height{
+    outline: none;
+    resize: none;
+}
+
+/*SECCION OCTUBRE*/
+
+.btn-outline-light{
+    margin-right: 15px;
+}
+
+.exp {
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
+.bg-degrade{
+    background: linear-gradient(90deg,#1c465e 0%, #336da2 110%);
+}
+
+
+/*CARRUSEL*/
+.conf {
+    font-size: 30px;
+    margin-left: 750px;
+    margin-bottom: 100px;
+}
+
+.texto-main {
+    margin-left:200px ;
+    position: relative;
+    bottom: 90px;
+    left: 120px;
+    color: white;
+}
+
+.orador {
+    position: relative;
+    left: 420px ;
+    bottom: 90px;
+}
+
+.d-block{
+    filter: brightness(0.5); /* Reduce el brillo al 70% */
+}
+
+
+/*FORMULARIO*/
+
+#boton {
+    background-color: greenyellow;
+    color: white;
+}
+
+.titulo-gral {
+    text-align: center;
+}
+
+section span {
+    font-size: 35px;
+    display: block;
+    font-weight: bold;
+}
+
+.titulo-gral {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 760px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0 !important;
+    }
+}
+
+/*Compra tickets*/
+#ticket {
+    margin-top: 30px;
+}
+
+#btnBorrar {
+    background-color: rgb(115, 170, 34);
+    color: white;
+}
+
+#btnResumen {
+    background-color: rgb(115, 170, 34);
+    color: white;
+}
